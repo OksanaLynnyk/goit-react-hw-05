@@ -1,0 +1,14 @@
+.btnBack {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: rgb(165, 179, 251);
+    color: #fafafa;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: background-color 250ms linear;
+}
+
+.btnBack:hover, .btnBack:focus {
+    background-color: rgb(141, 141, 246);
+    outline: none;
+}

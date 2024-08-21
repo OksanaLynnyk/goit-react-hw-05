@@ -1,0 +1,52 @@
+.pageDetailsWrap {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detailsList {
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+
+.detailsItem {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.detailsImg {
+    width: 300px;
+    height: 450px;
+}
+
+.detailsItemWrap{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.infoWrap{
+    display: flex;
+    gap: 25px;
+    border-bottom: 1px solid black;
+    padding-bottom: 18px;
+}
+
+.infoItem {
+    font-size: 18px;
+}
+
+.infoLink {
+    transition: color 250px linear;
+}
+
+.infoLink:hover, .infoLink:focus {
+    color:  rgb(141, 141, 246);
+    outline: none;
+}
+
+.active {
+    color: rgb(57, 160, 172);
+}

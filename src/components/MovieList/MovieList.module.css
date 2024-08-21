@@ -1,0 +1,17 @@
+.movieList {
+    padding: 20px;
+}
+
+.movieListItem:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.movieListLink {
+    padding: 8px;
+    transition: color 250ms linear;
+}
+
+.movieListLink:hover, .movieListLink:focus {
+    color:  rgb(141, 141, 246);
+    outline: none;
+}

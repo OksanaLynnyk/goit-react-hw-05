@@ -1,0 +1,29 @@
+.noPageWrap{
+    padding: 20px;
+}
+
+.noPageText{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(243, 53, 53);
+    margin-bottom: 20px;
+}
+
+.noPageLink {
+    text-align: center;
+    display: block;
+    padding: 10px 18px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: rgb(165, 179, 251);
+    color: #fafafa;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: background-color 250ms linear;
+}
+
+.noPageLink:hover, .noPageLink:focus {
+    background-color: rgb(141, 141, 246);
+    outline: none;
+}
+

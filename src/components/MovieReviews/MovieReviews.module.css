@@ -1,0 +1,12 @@
+.reviewsItem:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.reviewsAuthor {
+    margin-bottom: 10px;
+}
+
+.noReviews {
+    color :rgb(184, 17, 42);
+    font-size: 20px;
+}
